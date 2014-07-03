@@ -21,6 +21,6 @@
 *由于使用的是免费空间，频繁点击和网络过慢都能出现异常的情况，刷新页面重试即可。*
 
 > ##### 技术： coffeescript+express4+redis
-> ##### 时间： 2014年6月
+> ##### 时间： 2014年7月
 > ##### 源码： [simple-redis-drift-bottle](https://github.com/think2011/simple-redis-drift-bottle.git)
 > ##### 我的博客： [think2011](http://think2011.github.io/)
