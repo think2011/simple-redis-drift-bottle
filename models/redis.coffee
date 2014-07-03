@@ -16,8 +16,8 @@ exports.throw = (bottle, callback) ->
 
 
 exports.pick = (callback) ->
-  # 设定 80% 的几率捡到海星
-  if Math.random() <= 0.8
+  # 设定 50% 的几率捡到海星
+  if Math.random() <= 0.5
     return callback code: 0, msg: '捡到海星了~'
 
   # 随机返回一个ID

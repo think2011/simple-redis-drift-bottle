@@ -14,8 +14,8 @@ $ ->
 
 
   $post.find('button').on 'click', ->
-    $.post '/post', content: $textarea.val(), (data) ->
-      console.log data
+    $.post '/post', content: $textarea.val()
+    return false
 
 
   $btnThrow.on 'click', ->

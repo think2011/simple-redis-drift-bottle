@@ -29,5 +29,7 @@ app.post '/post', (req, res) ->
 
 
 #启动服务
-app.listen 3000
-console.log '正在监听 3000 端口'
+app.set 'port', process.env.PORT || 8080
+
+app.listen app.get 'port'
+console.log "正在监听 #{app.get 'port'} 端口"
