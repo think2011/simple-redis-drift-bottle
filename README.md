@@ -15,7 +15,9 @@
 ![](http://think2011.qiniudn.com/simple-redis-drift-bottle-1.png)
 
 
-[点我立即看demo](http://simple-redis-drift-bottle-c9-think2011.c9.io/)
+[点我立即看demo](http://simple-redis-drift-bottle-1-c9-think2011.c9.io/)
+
+
 *由于使用的是免费空间，频繁点击和网络过慢都能出现异常的情况，刷新页面重试即可。*
 
 > ##### 技术： coffeescript+express4+redis
